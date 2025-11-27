@@ -1,0 +1,165 @@
+.reviews {
+    display: flex;
+    flex-direction: column;
+    width: 335px;
+    height: 356px;
+    gap: 40px;
+    align-items: flex-start;
+}
+
+.reviews-img-frame {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 100px;
+    overflow: hidden;
+    background-color: #121212;
+}
+
+
+.student-frame {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 335px;
+    height: 244px;
+    padding: 20px;
+    border: 1px solid #ffffff;
+    border-radius: 12px;
+}
+
+.student-frame-2 {
+    display: none;
+}
+
+.reviews-top {
+    display: flex;
+    flex-direction: row;
+    width: 211px;
+    height: 56px;
+    gap: 10px;
+}
+
+.reviews-top-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 145px;
+    height: 56px;
+    gap: 4px;
+}
+
+.stars-frame {
+    display: flex;
+    flex-direction: row;
+    width: 96px;
+    height: 16px;
+    margin-left: 66px;
+}
+
+.icon-stars {
+    fill: #bea69e;
+}
+
+.icon-stars-empty {
+    fill: #ffffff;
+    opacity: 20%;
+}
+
+.reviews-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 295px;
+    height: 108px;
+    padding: 0;
+}
+
+.cards-top {
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width: 768px) and (max-width: 1158px) {
+    .reviews {
+        width: 704px;
+        height: 300px;
+    }
+
+    .student-frame {
+        width: 640px;
+        height: 196px;
+    }
+
+    .stars-frame {
+        display: flex;
+        width: 116px;
+        height: 20px;
+        justify-content: center;
+        list-style: none;
+    }
+
+    .cards-top {
+        display: flex;
+        flex-direction: row;
+        justify-content: inherit;
+    }
+
+    .reviews-content {
+        width: 600px;
+        height: 80px;
+        text-align: left;
+    }
+}
+
+@media (min-width: 1158px) {
+    .reviews {
+        width: 1240px;
+        height: 300px;
+    }
+
+    .student-frame {
+        width: 640px;
+        height: 196px;
+    }
+
+    .student-frame2 {
+        display: block;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 640px;
+        height: 196px;
+        padding: 20px;
+        border: 1px solid #ffffff;
+        border-radius: 12px;
+    }
+
+    .stars-frame {
+        display: flex;
+        flex-direction: row;
+        width: 116px;
+        height: 20px;
+    }
+
+    .cards-top {
+        display: flex;
+        flex-direction: row;
+        justify-content: inherit;
+    }
+
+    .reviews-content {
+        width: 600px;
+        height: 80px;
+    }
+
+    .cards {
+        display: flex;
+        flex-direction: row;
+        width: 1240px;
+        height: 196px;
+        gap: 40px;
+    }
+}

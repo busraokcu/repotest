@@ -23,5 +23,7 @@ dist-ssr
 *.sln
 *.sw?
 
+#pullrequest list
+pullrequest-list.txt
 #pull request list
 pullrequest-list.txt
