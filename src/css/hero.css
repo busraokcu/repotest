@@ -1,0 +1,1029 @@
+.container {
+    max-width: 768px;
+    margin: 0 auto;
+
+}
+
+.hero-section {
+
+    display: flex;
+    flex-direction: column;
+    width: 335px;
+    height: 777px;
+    background-color: rgba(29, 29, 29, 1);
+    border-radius: 30px;
+
+    margin: 20px 20px 80px;
+
+}
+
+h1 {
+    font-family: "DM Sans";
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 1.1;
+    color: rgba(255, 255, 255, 1);
+    font-style: Medium;
+    letter-spacing: -4%;
+
+    width: 295px;
+    height: 176px;
+
+    margin: 40px 20px 20px;
+
+
+}
+
+.photography-text {
+
+    font-family: "DM Sans";
+    font-weight: 400;
+    font-style: Italic;
+    font-size: 40px;
+    line-height: 1.1;
+    letter-spacing: -4%;
+    color: rgba(190, 166, 158, 1);
+
+}
+
+.offer-text {
+    width: 295px;
+    height: 72px;
+    margin: 0px 20px 40px;
+
+    font-family: "DM Sans";
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 14px;
+    line-height: 1.2857;
+    letter-spacing: -2%;
+    color: rgba(255, 255, 255, 1);
+}
+
+.hero-1-footer {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    margin: 0px 62px 31px 20px;
+    width: 253px;
+    height: 84px;
+
+}
+
+.happy-students {
+
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    width: 109px;
+    height: 84px;
+    opacity: 1;
+}
+
+.students-pictures-area {
+    display: flex;
+    flex-direction: row;
+    width: 109px;
+    height: 44px;
+
+    position: relative;
+
+}
+
+.student-image1 {
+    position: relative;
+
+    background: rgba(224, 224, 224, 1);
+
+    border: 2px solid rgba(29, 29, 29, 1);
+    border-radius: 100px;
+
+    width: 44px;
+    height: 44px;
+
+    z-index: 2;
+
+}
+
+.student-image2 {
+
+    position: absolute;
+
+    background: rgb(224, 224, 224);
+
+    border: 2px solid rgba(29, 29, 29, 1);
+    border-radius: 100px;
+
+    width: 44px;
+    height: 44px;
+
+    z-index: 1;
+
+    left: 32px;
+
+}
+
+.student-image3 {
+
+    position: absolute;
+
+    background: rgba(224, 224, 224, 1);
+
+    border: 2px solid rgba(29, 29, 29, 1);
+    border-radius: 100px;
+
+    width: 44px;
+    height: 44px;
+
+    z-index: 0;
+
+    left: 64px;
+
+}
+
+.happy-students-text-area {
+
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+
+    width: 94px;
+    height: 36px;
+
+}
+
+
+
+.our-happy-text {
+
+    color: rgba(255, 255, 255, 1);
+
+    font-family: "DM Sans";
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 14px;
+    line-height: 1.286;
+    letter-spacing: -4%;
+
+
+
+}
+
+.icon-arrow-area {
+
+    display: flex;
+
+    width: 22px;
+    height: 36px;
+
+    align-items: center;
+    justify-content: right;
+
+    color: white;
+
+}
+
+.icon-arrow {
+
+    width: 18px;
+    height: 8.66px;
+
+    color: white;
+
+}
+
+
+.reviews-area {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+
+}
+
+.icon-star-area {
+    display: flex;
+    width: 44px;
+    height: 44px;
+    background-color: rgba(190, 166, 158, 1);
+    border-radius: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-star {
+
+    width: 16.67px;
+    height: 15.85px;
+    border: 1.5px solid rgba(18, 18, 18, 1);
+
+}
+
+.reviews-text-area {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+
+    width: 57px;
+    height: 40px;
+
+}
+
+.reviews-text {
+
+    font-family: "DM Sans";
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 14px;
+    line-height: 1.2857;
+    letter-spacing: -4%;
+
+    color: rgba(255, 255, 255, 0.5);
+
+}
+
+.amount-text {
+
+    font-family: DM Sans;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 16px;
+    line-height: 1.125;
+    letter-spacing: -4%;
+
+    color: rgba(255, 255, 255, 1);
+}
+
+.hero-2 {
+
+    margin: 0px 38px 0px;
+
+}
+
+.carrot-image {
+
+    width: 259px;
+    height: 314px;
+
+}
+
+@media screen and (min-width: 768px) {
+
+    .container {
+        max-width: 768px;
+        margin: 0 auto;
+    }
+
+    .hero-section {
+
+        display: flex;
+        flex-direction: column;
+        width: 704px;
+        height: 900px;
+        background-color: rgba(29, 29, 29, 1);
+        border-radius: 30px;
+
+        margin: 40px 32px 100px;
+
+    }
+
+    h1 {
+        font-family: "DM Sans";
+        font-weight: 500;
+        font-size: 60px;
+        line-height: 1.0667;
+        color: rgba(255, 255, 255, 1);
+        font-style: Medium;
+        letter-spacing: -4%;
+
+        width: 517px;
+        height: 192px;
+
+        margin: 64px 155px 20px 32px;
+
+
+    }
+
+    .photography-text {
+
+        font-family: "DM Sans";
+        font-weight: 400;
+        font-style: Italic;
+        font-size: 60px;
+        line-height: 1.0667;
+        letter-spacing: -4%;
+        color: rgba(190, 166, 158, 1);
+
+    }
+
+    .offer-text {
+        width: 418px;
+        height: 54px;
+        margin: 0px 254px 40px 32px;
+
+        font-family: "DM Sans";
+        font-weight: 400;
+        font-style: Regular;
+        font-size: 14px;
+        line-height: 1.2857;
+        letter-spacing: -2%;
+        color: rgba(255, 255, 255, 1);
+    }
+
+    .hero-1-footer {
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+        margin: 0px 282px 40px 32px;
+        width: 390px;
+        height: 56px;
+
+    }
+
+    .happy-students {
+
+        display: flex;
+        flex-direction: row;
+        gap: 12px;
+        width: 231px;
+        height: 56px;
+        opacity: 1;
+    }
+
+    .students-pictures-area {
+        display: flex;
+        flex-direction: row;
+        width: 137px;
+        height: 54px;
+        position: relative;
+    }
+
+    .student-image1 {
+        position: relative;
+
+        background: rgba(224, 224, 224, 1);
+
+        border: 3px solid rgba(29, 29, 29, 1);
+        border-radius: 100px;
+
+        width: 54px;
+        height: 54px;
+
+        z-index: 2;
+
+    }
+
+    .student-image2 {
+
+        position: absolute;
+
+        background: rgba(224, 224, 224, 1);
+
+        border: 3px solid rgba(29, 29, 29, 1);
+        border-radius: 100px;
+
+        width: 54px;
+        height: 54px;
+
+        z-index: 1;
+
+        left: 40px;
+
+    }
+
+    .student-image3 {
+
+        position: absolute;
+
+        background: rgba(224, 224, 224, 1);
+
+        border: 3px solid rgba(29, 29, 29, 1);
+        border-radius: 100px;
+
+        width: 54px;
+        height: 54px;
+
+        z-index: 0;
+
+        left: 83px;
+    }
+
+
+
+    .happy-students-text-area {
+
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+
+        width: 82px;
+        height: 56px;
+
+    }
+
+    .our-happy-text {
+
+        color: rgba(255, 255, 255, 1);
+
+        font-family: "DM Sans";
+        font-weight: 400;
+        font-style: Regular;
+        font-size: 16px;
+        line-height: 1.25;
+        letter-spacing: -4%;
+    }
+
+    .icon-arrow {
+        color: white;
+        width: 18px;
+        height: 8.66px;
+
+    }
+
+    .reviews-area {
+        display: flex;
+        flex-direction: row;
+        gap: 12px;
+
+        width: 119px;
+        height: 50px;
+
+    }
+
+    .icon-star-area {
+        display: flex;
+        width: 50px;
+        height: 50px;
+        background-color: rgba(190, 166, 158, 1);
+        border-radius: 100px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .icon-star {
+
+        width: 16.67px;
+        height: 15.85px;
+        border: 1.5px;
+        background-color: rgba(190, 166, 158, 1);
+
+        opacity: 1;
+
+
+    }
+
+    .reviews-text-area {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+
+        width: 57px;
+        height: 48px;
+
+    }
+
+    .reviews-text {
+
+        font-family: "DM Sans";
+        font-weight: 400;
+        font-style: Regular;
+        font-size: 16px;
+        line-height: 1.25;
+        letter-spacing: -4%;
+
+        color: rgba(255, 255, 255, 0.5);
+
+    }
+
+    .amount-text {
+
+        font-family: DM Sans;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 16px;
+        line-height: 1.25;
+        letter-spacing: -4%;
+
+        color: rgba(255, 255, 255, 1);
+    }
+
+    .hero-2 {
+
+        margin: 0px 155px 0px 156px;
+
+    }
+
+    .carrot-image {
+
+        width: 393px;
+        height: 434px;
+
+    }
+
+}
+
+@media screen and (min-width: 1280px) {
+
+    .container {
+        max-width: 1280px;
+        margin: 0 auto;
+    }
+
+    .hero-section {
+
+        display: flex;
+        flex-direction: row;
+        width: 1080px;
+        height: 600px;
+        background-color: rgba(29, 29, 29, 1);
+        border-radius: 30px;
+
+        margin: 80px 100px 150px;
+
+    }
+
+    h1 {
+        font-family: "DM Sans";
+        font-weight: 500;
+        font-size: 64px;
+        line-height: 1.0625;
+        color: rgba(255, 255, 255, 1);
+        font-style: Medium;
+        letter-spacing: -4%;
+
+        width: 563px;
+        height: 204px;
+
+        margin: 80px 20px 20px 50px;
+
+
+    }
+
+    .photography-text {
+
+        font-family: "DM Sans";
+        font-weight: 400;
+        font-style: Italic;
+        font-size: 64px;
+        line-height: 1.0625;
+        letter-spacing: -4%;
+        color: rgba(190, 166, 158, 1);
+
+    }
+
+    .offer-text {
+        width: 418px;
+        height: 54px;
+        margin: 0px 165px 136px 50px;
+
+        font-family: "DM Sans";
+        font-weight: 400;
+        font-style: Regular;
+        font-size: 14px;
+        line-height: 1.2857;
+        letter-spacing: -2%;
+        color: rgba(255, 255, 255, 1);
+    }
+
+    .hero-1-footer {
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+        margin: 0px 195px 50px 50px;
+        width: 388px;
+        height: 56px;
+
+    }
+
+    .happy-students {
+
+        display: flex;
+        flex-direction: row;
+        gap: 12px;
+        width: 229px;
+        height: 56.66px;
+        opacity: 1;
+    }
+
+    .students-pictures-area {
+        display: flex;
+        flex-direction: row;
+        width: 135px;
+        height: 54px;
+        position: relative;
+    }
+
+    .student-image1 {
+        position: relative;
+
+        background: rgba(224, 224, 224, 1);
+
+        border: 3px solid rgba(29, 29, 29, 1);
+        border-radius: 100px;
+
+        width: 54px;
+        height: 54px;
+
+        z-index: 2;
+
+    }
+
+    .student-image2 {
+
+        position: absolute;
+
+        background: rgba(224, 224, 224, 1);
+
+        border: 3px solid rgba(29, 29, 29, 1);
+        border-radius: 100px;
+
+        width: 54px;
+        height: 54px;
+
+        z-index: 1;
+
+        left: 40px;
+
+    }
+
+    .student-image3 {
+
+        position: absolute;
+
+        background: rgba(224, 224, 224, 1);
+
+        border: 3px solid rgba(29, 29, 29, 1);
+        border-radius: 100px;
+
+        width: 54px;
+        height: 54px;
+
+        z-index: 0;
+
+        left: 83px;
+    }
+
+    .happy-students-text-area {
+
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+
+        width: 82px;
+        height: 56.66px;
+
+    }
+
+    .our-happy-text {
+
+        color: rgba(255, 255, 255, 1);
+
+        font-family: "DM Sans";
+        font-weight: 400;
+        font-style: Regular;
+        font-size: 16px;
+        line-height: 1.25;
+        letter-spacing: -4%;
+    }
+
+    .icon-arrow {
+        color: white;
+        width: 18px;
+        height: 8.66px;
+
+    }
+
+    .reviews-area {
+        display: flex;
+        flex-direction: row;
+        gap: 12px;
+
+        width: 119px;
+        height: 50px;
+
+    }
+
+    .icon-star-area {
+        display: flex;
+        width: 50px;
+        height: 50px;
+        background-color: rgba(190, 166, 158, 1);
+        border-radius: 100px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .icon-star {
+
+        width: 16.67px;
+        height: 15.85px;
+        border: 1.5px;
+        background-color: rgba(190, 166, 158, 1);
+
+        opacity: 1;
+
+
+    }
+
+    .reviews-text-area {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+
+        width: 57px;
+        height: 48px;
+
+    }
+
+    .reviews-text {
+
+        font-family: "DM Sans";
+        font-weight: 400;
+        font-style: Regular;
+        font-size: 16px;
+        line-height: 1.25;
+        letter-spacing: -4%;
+
+        color: rgba(255, 255, 255, 0.5);
+
+    }
+
+    .amount-text {
+
+        font-family: DM Sans;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 16px;
+        line-height: 1.25;
+        letter-spacing: -4%;
+
+        color: rgba(255, 255, 255, 1);
+    }
+
+    .hero-2 {
+
+        margin: 80px 50px 0px 0px;
+
+    }
+
+    .carrot-image {
+
+        width: 397px;
+        height: 520px;
+
+    }
+
+}
+
+
+@media screen and (min-width: 1440px) {
+
+    .container {
+        max-width: 1440px;
+        margin: 0 auto;
+    }
+
+    .hero-section {
+
+        display: flex;
+        flex-direction: row;
+        width: 1240px;
+        height: 600px;
+        background-color: rgba(29, 29, 29, 1);
+        border-radius: 30px;
+
+        margin: 80px 100px 150px;
+
+    }
+
+    h1 {
+        font-family: "DM Sans";
+        font-weight: 500;
+        font-size: 64px;
+        line-height: 1.0625;
+        color: rgba(255, 255, 255, 1);
+        font-style: Medium;
+        letter-spacing: -4%;
+
+        width: 563px;
+        height: 204px;
+
+        margin: 80px 130px 20px 50px;
+
+
+    }
+
+    .photography-text {
+
+        font-family: "DM Sans";
+        font-weight: 400;
+        font-style: Italic;
+        font-size: 64px;
+        line-height: 1.0625;
+        letter-spacing: -4%;
+        color: rgba(190, 166, 158, 1);
+
+    }
+
+    .offer-text {
+        width: 418px;
+        height: 54px;
+        margin: 0px 275px 136px 50px;
+
+        font-family: "DM Sans";
+        font-weight: 400;
+        font-style: Regular;
+        font-size: 14px;
+        line-height: 1.2857;
+        letter-spacing: -2%;
+        color: rgba(255, 255, 255, 1);
+    }
+
+    .hero-1-footer {
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+        margin: 0px 303px 50px 50px;
+        width: 390px;
+        height: 56px;
+
+    }
+
+    .happy-students {
+
+        display: flex;
+        flex-direction: row;
+        gap: 12px;
+        width: 231px;
+        height: 56px;
+        opacity: 1;
+    }
+
+    .students-pictures-area {
+        display: flex;
+        flex-direction: row;
+        width: 137px;
+        height: 54px;
+        position: relative;
+    }
+
+    .student-image1 {
+        position: relative;
+
+        background: rgba(224, 224, 224, 1);
+
+        border: 3px solid rgba(29, 29, 29, 1);
+        border-radius: 100px;
+
+        width: 54px;
+        height: 54px;
+
+        z-index: 2;
+
+    }
+
+    .student-image2 {
+
+        position: absolute;
+
+        background: rgba(224, 224, 224, 1);
+
+        border: 3px solid rgba(29, 29, 29, 1);
+        border-radius: 100px;
+
+        width: 54px;
+        height: 54px;
+
+        z-index: 1;
+
+        left: 40px;
+
+    }
+
+    .student-image3 {
+
+        position: absolute;
+
+        background: rgba(224, 224, 224, 1);
+
+        border: 3px solid rgba(29, 29, 29, 1);
+        border-radius: 100px;
+
+        width: 54px;
+        height: 54px;
+
+        z-index: 0;
+
+        left: 83px;
+    }
+
+    .happy-students-text-area {
+
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+
+        width: 82px;
+        height: 56px;
+
+    }
+
+    .our-happy-text {
+
+        color: rgba(255, 255, 255, 1);
+
+        font-family: "DM Sans";
+        font-weight: 400;
+        font-style: Regular;
+        font-size: 16px;
+        line-height: 1.25;
+        letter-spacing: -4%;
+    }
+
+    .icon-arrow {
+        color: white;
+        width: 18px;
+        height: 8.66px;
+
+    }
+
+    .reviews-area {
+        display: flex;
+        flex-direction: row;
+        gap: 12px;
+
+        width: 119px;
+        height: 50px;
+
+    }
+
+    .icon-star-area {
+        display: flex;
+        width: 50px;
+        height: 50px;
+        background-color: rgba(190, 166, 158, 1);
+        border-radius: 100px;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .icon-star {
+
+        width: 16.67px;
+        height: 15.85px;
+        border: 1.5px;
+        background-color: rgba(190, 166, 158, 1);
+
+        opacity: 1;
+
+    }
+
+    .reviews-text-area {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+
+        width: 57px;
+        height: 48px;
+
+    }
+
+    .reviews-text {
+
+        font-family: "DM Sans";
+        font-weight: 400;
+        font-style: Regular;
+        font-size: 16px;
+        line-height: 1.25;
+        letter-spacing: -4%;
+
+        color: rgba(255, 255, 255, 0.5);
+
+    }
+
+    .amount-text {
+
+        font-family: DM Sans;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 16px;
+        line-height: 1.25;
+        letter-spacing: -4%;
+
+        color: rgba(255, 255, 255, 1);
+    }
+
+    .hero-2 {
+
+        margin: 80px 100px 0px 0px;
+
+    }
+
+    .carrot-image {
+
+        width: 397px;
+        height: 520px;
+
+    }
+
+}

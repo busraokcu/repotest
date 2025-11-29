@@ -230,6 +230,16 @@ h3 {
         gap: 4px;
     }
 
+    .reviews-top-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        width: 153px;
+        height: 56px;
+        gap: 4px;
+    }
+
     .cards {
         display: flex;
         flex-direction: row;

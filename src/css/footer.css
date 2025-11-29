@@ -1,1 +1,198 @@
 /*Footer CSS */
+footer {
+    font-family: "DM Sans", sans-serif;
+    color: white;
+    background-image: url("../img/Vector-3.png"), url("../img/Graphic.png");
+    background-repeat: repeat-x, repeat;
+    background-size: auto, auto;
+    background-position: top center, 0 0;
+    padding: 2.25rem 1.25rem 1.25rem 1.25rem;
+
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer p {
+    margin: 0;
+
+}
+
+address {
+    font-style: normal;
+}
+
+/* LOGO VE İLETİŞİM ------------------------------------------------ */
+
+.footer-contact {
+    padding-top: 1rem;
+
+}
+
+.footer-address {
+    font-size: 0.875rem;
+    line-height: 1.3em;
+
+}
+
+.footer-address p {
+    padding-top: 0.625rem;
+
+}
+
+/* SOSYAL MEDYA + MENÜ --------------------------------------------- */
+
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    gap: 2.5rem;
+    padding-top: 2.5rem;
+    font-size: 0.875rem;
+    line-height: 100%;
+}
+
+
+.footer-social li,
+.footer-informaiton li {
+    padding-bottom: 0.875rem;
+}
+
+.footer-media,
+.footer-list {
+    padding: 0px;
+
+}
+
+.footer-list a:hover {
+    color: #BEA69E;
+
+}
+
+/* NEWSLETTER FORMU ------------------------------------------------ */
+
+.footer-form input[type="email"] {
+    width: 16.5rem;
+    height: 3.75rem;
+    border-radius: 0.75rem;
+    border: 1px solid white;
+    padding: 0;
+
+}
+
+.footer-form input::placeholder {
+    padding: 1.25rem;
+    font-size: 1rem;
+    line-height: 1.25rem;
+}
+
+
+.footer-form button {
+    background-color: #1D1D1D;
+    color: white;
+    border-radius: 0.75rem;
+    width: 3.75rem;
+    height: 3.75rem;
+    border: 0px solid #1D1D1D;
+
+}
+
+.footer-btn {
+    box-shadow: none;
+    outline: none;
+    font-size: 1.25rem;
+    line-height: 120%;
+    padding: 0;
+}
+
+
+/* ALT SATIR ------------------------------------------------------- */
+
+.footer-finish {
+    font-size: 0.75rem;
+    line-height: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 2.5rem;
+
+}
+
+
+
+@media (min-width: 768px) {
+    footer {
+        padding: 3.125rem 2rem 1.5625rem 2rem;
+        background-image: url("../img/Vector-3.png"), url("../img/Graphic-1.png");
+    }
+
+    footer ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .footer-top {
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+    }
+
+    .footer-contact {
+        display: flex;
+        flex-wrap: wrap;
+        width: 9.5rem;
+        height: 4rem;
+        padding-top: 1.5625rem;
+
+    }
+
+    .footer-container {
+        display: flex;
+        align-items: start;
+        margin: 0;
+        padding: 0;
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+
+    .footer-form input[type="email"] {
+        width: 11.125rem;
+        height: 3.75rem;
+        border-radius: 0.75rem;
+        border: 0px solid white;
+
+    }
+}
+
+@media (min-width: 1280px) {
+
+    footer {
+        padding: 3.125rem 6.25rem 1.5625rem 6.25rem;
+        background-image: url("../img/Vector-3.png"), url("../img/Graphic-2.png");
+
+    }
+
+    .footer-top {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .footer-container {
+        gap: 6.25rem;
+    }
+
+    .footer-form input[type="email"] {
+        width: 13.5rem;
+        height: 3.75rem;
+        border-radius: 0.75rem;
+        border: 0px solid white;
+    }
+}

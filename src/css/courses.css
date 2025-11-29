@@ -68,13 +68,14 @@
   background-color:#BEA69E ;
 }
 
+
 .icon-arrow {
   width: 18px;
   height: 18px;
   fill:rgba(119, 119, 119, 1);
 }
-.icon .icon-arrow:hover{
-  fill:#FFFFFF;
+.icon-wrapper:hover .icon-arrow { 
+  fill: #FFFFFF;
 }
 
 .box-title {
@@ -132,6 +133,10 @@ height: 54px;
   line-height: 54px;
   letter-spacing: -1.12px;
 }
+.courses-box {
+  width: 342px;
+  height: 452px;
+}
 .courses-list {
   display:flex;
   flex-wrap: wrap;
@@ -141,13 +146,32 @@ height: 54px;
   margin: 0;
   padding: 0;
 }
+
+.box-content{
+    gap:180px;
+    margin-right: 32px;
+    margin-top: 32px;
+    
+}
+.box-title {
+  font-size: 28px;
+  line-height: 32px;
+  font-weight: 500;
+  margin-top: 32px;
+}
+.box-content p{
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+letter-spacing: -0.32px;
+}
 }
 @media (min-width: 1280px) {
 #courses {
   display: flex;
   flex-direction: column;
   gap: 50px;
-  margin: 0 100px;
+  margin: 150px 100px;
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
@@ -157,6 +181,13 @@ height: 54px;
   display:flex;
   flex-direction: row;
   justify-content: space-between;
+}
+.section-courses-title p{
+    width: 405px;
+    height: 80px;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
 }
 
 }
