@@ -165,6 +165,7 @@
             min-width: 480px;
             min-height: 578px;
             margin-left: 100px;
+            align-items: flex-start;
         }
 
         .signup-images {
@@ -180,7 +181,8 @@
             align-items: center;
             justify-content: center;
             flex-direction: row;
-            max-width: 1280px;
+            min-width: 1240px;
+            min-height: 578px;
             margin: 0 auto;
             padding: 40px;
             background-color: #121212;
@@ -198,8 +200,8 @@
     
         .big-oval-bg .image-left {
             position: absolute;
-            width: 180px;
-            height: 200px;
+            width: 163px;
+            height: 154px;
             top: 50%;
             left: 38%;
             padding-top: 76px;
