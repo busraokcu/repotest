@@ -162,7 +162,7 @@
 /* --- DESKTOP (1280px+) --- */
 @media (min-width: 1280px) {
         .signup {
-            min-width: 480px;
+            width: 480px;
             min-height: 578px;
             margin-left: 100px;
             align-items: flex-start;
