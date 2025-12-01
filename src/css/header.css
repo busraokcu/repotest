@@ -141,7 +141,7 @@ ul li:first-child {
   color: #121212;
 }
 .menu-landing-picture {
-  background-image: url('./img/landing-menu.jpg');
+  background-image: url('../img/landing-menu.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -269,7 +269,7 @@ ul li:first-child {
     color: #121212;
   }
   .menu-landing-picture {
-    background-image: url('./img/landing-menu.jpg');
+    background-image: url('../img/landing-menu.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
