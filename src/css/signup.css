@@ -112,11 +112,12 @@
 @media (min-width: 768px) {
     .signup {
         width: 480px;
-        min-height: 577px;
+        height: auto;
         background-color: #121212;
         padding-top: 100px;
         padding-left: 32px;
         padding-right: 256px;
+        padding-bottom: 100px;
     }
 
     .signup-title {
@@ -155,25 +156,24 @@
     .signup-policy {
         font-size: 14px;
         line-height: 1.28571;
-        padding-bottom: 100px;
     }
 }
 
 /* --- DESKTOP (1280px+) --- */
 @media (min-width: 1280px) {
         .signup {
-            width: 480px;
-            min-height: 578px;
             margin-left: 100px;
-            align-items: flex-start;
+            margin: 0 auto;
+            width: 480px;
+            max-width: 50%;
         }
 
         .signup-images {
             display: flex;
             flex-direction: row;
-            position: relative;
-            gap: 20px;
-            right: 100px;    
+            gap: 20px;    
+            right: auto;
+            position: static;
         }
     
         #signup-container {
