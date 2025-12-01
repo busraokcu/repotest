@@ -1,4 +1,6 @@
-.our-mentors {
+/* our-mentors */
+
+#our-mentors {
     display: flex;
     justify-content: center;
     margin-bottom: 80px;
